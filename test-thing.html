@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`test-thing`
+An example of how to build a thing for Grow-IoT
+
+@demo demo/index.html 
+-->
+
+<dom-module id="test-thing">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'test-thing',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'test-thing',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
