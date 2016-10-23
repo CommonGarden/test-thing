@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/CommonGarden/test-thing#readme",
   "dependencies": {
-    "Grow.js": "^0.2.94"
+    "Grow.js": "^0.2.96"
   }
 }
